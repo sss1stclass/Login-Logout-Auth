@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="/stylesheets/register.css">
+</head>
+<body>
+   <header>
+    <div class="container">
+        <nav>
+        <div class="btn-grad2">
+        <a href="/">Home</a>
+        </div>
+        <ul>
+          <li class="btn-grad">
+            <a href="/users/login">Login</a>
+          </li>
+          <li class="btn-grad">
+            <a href="#">
+              SignUp
+            </a>
+          </li>
+        </ul>
+        </nav>
+      </div>
+   </header> 
+   <h1>Welcome to the SignUp Form</h1>
+   <div class="container2">
+       <form action="/users/register" method="POST">
+           <input type="text" name="name" id="" placeholder="Enter Your Name" >
+           <input type="email" name="email" id="" placeholder="Enter Your Email">
+           <input type="password" name="password" id="" placeholder="Enter Your Password">
+           <button type="submit">Register</button>
+       </form>
+   </div>
+</body>
+</html>
